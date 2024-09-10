@@ -1,3 +1,7 @@
+* 
+{
+    background-image: url(img/silverware.jpg);
+}
 header
 {
     display: flex;
@@ -28,5 +32,5 @@ footer
 }
 u1
 {
-    list-style-image: url(pie_icon.gif);
+    list-style-image: url(img/pie_icon.gif);
 }
