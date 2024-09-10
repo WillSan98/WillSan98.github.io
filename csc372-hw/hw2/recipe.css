@@ -1,0 +1,28 @@
+header
+{
+    display: flex;
+    justify-content: center;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font: Lucida 22pt;
+}
+h2
+{
+    font: Lucida 18pt;
+    color: #A4A400;
+    background-color: #F0F0F0;
+}
+body
+{
+    font: Georgia 11pt;;
+    color: #404040;
+}
+a
+{
+    color: #A4A400;
+}
+footer
+{
+    display:flex;
+    justify-content:flex-start;
+}
