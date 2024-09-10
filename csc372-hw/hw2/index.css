@@ -1,0 +1,20 @@
+*
+{
+    background-image: url(img/silverware.jpg);
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    color: #a40029;
+}
+p
+{
+    display: flex;
+    justify-content: center;
+}
+a
+{
+    display: flex;
+    justify-content: center;
+}
