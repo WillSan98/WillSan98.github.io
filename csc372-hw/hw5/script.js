@@ -44,21 +44,6 @@ function handleResponse(data) {
         let description = document.createElement("p");
         description.textContent = repo.description;
         repoElement.appendChild(description);
-        async function search() {
-    const input = document.querySelector('input');
-    let request = "https://api.github.com/users/" + input.value + "/repos?sort=created";
-    fetch(request)
-    .then(onResponse, onError)
-    .then(handleResponse);
-}
-
-function onResponse(response) {
-    return response.json();
-}
-
-function onError(error) {
-    console.error('Error:', error);
-}
         let update = document.createElement("p");
         update.textContent = "Last updated: " + repo.updated_at;
         repoElement.appendChild(update);
