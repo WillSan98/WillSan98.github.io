@@ -1,4 +1,4 @@
-setTimeout(document.addEventListener('DOMContentLoaded', loadDefault), 1000);
+document.addEventListener('DOMContentLoaded',loadDefault);
 const button = document.querySelector('button');
 button.addEventListener('click', search);
 
