@@ -1,7 +1,8 @@
-document.addEventListener('DOMContentLoaded', loadDefault);
-const button = document.querySelector('button');
-button.addEventListener('click', search);
-
+window.onload = function() {
+    loadDefault();
+    const button = document.querySelector('button');
+    button.addEventListener('click', search);
+}
 async function loadDefault(){
     let request = "https://api.github.com/users/WillSan98/repos?sort=created"
     fetch(request)
