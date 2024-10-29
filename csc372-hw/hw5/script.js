@@ -1,5 +1,5 @@
 (function(){
-    document.addEventListener('DOMContentLoaded',loadDefault);
+    document.addEventListener('load',loadDefault);
 const button = document.querySelector('button');
 button.addEventListener('click', search);
 
