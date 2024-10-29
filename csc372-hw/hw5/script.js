@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded',loadDefault);
+(function(){
+    document.addEventListener('DOMContentLoaded',loadDefault);
 const button = document.querySelector('button');
 button.addEventListener('click', search);
 
@@ -61,3 +62,4 @@ function handleResponse(data) {
     }
     console.log(data);
 }
+})();
